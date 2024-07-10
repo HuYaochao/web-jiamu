@@ -1,0 +1,37 @@
+{
+  "id": "4616456",
+  "name": "嘉木",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3278668",
+      "name": "用户",
+      "font_class": "user",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "5387648",
+      "name": "电话",
+      "font_class": "dianhua",
+      "unicode": "eb23",
+      "unicode_decimal": 60195
+    },
+    {
+      "icon_id": "5387666",
+      "name": "时间",
+      "font_class": "shijian",
+      "unicode": "eb2a",
+      "unicode_decimal": 60202
+    },
+    {
+      "icon_id": "18170188",
+      "name": "退出,出",
+      "font_class": "exit-full",
+      "unicode": "e97f",
+      "unicode_decimal": 59775
+    }
+  ]
+}

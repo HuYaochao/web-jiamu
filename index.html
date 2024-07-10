@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- ali_icon -->
+    <link rel="stylesheet" href="./iconfont/iconfont.css" />
+
+    <!-- 自定义 -->
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/search.css" />
+
+    <!-- js -->
+    <script src="./js/tab.js"></script>
+  </head>
+  <body>
+    <!-- 顶部信息栏 -->
+    <div class="top-bar">
+      <!-- 顶部内容盒子 -->
+      <div class="header-top-box">
+        <!-- 顶部内容 -->
+        <div class="blank-box-top"></div>
+        <span><span class="iconfont icon-dianhua"></span>0500-6000000</span>
+        &nbsp;&nbsp;
+        <span><span class="iconfont icon-shijian"></span>上午9点至下午6点</span>
+
+        <span class="right-box"
+          ><span class="iconfont icon-user"></span>登录</span
+        >
+        <span class="right-box"
+          ><span class="iconfont icon-exit-full"></span>注册</span
+        >
+      </div>
+    </div>
+
+    <!-- 导航条 -->
+    <div class="nav">
+      <img src="img/logo.png" class="logo" />
+      <!-- 右侧内容 -->
+      <div class="nav-right">
+        <!-- 右上空白 -->
+        <div class="blank-nav"></div>
+        <!-- 导航内容 -->
+        <div class="nav-content-box">
+          <!-- 搜索框 -->
+          <div class="search-box">
+            <div class="search bar6">
+              <form>
+                <input type="text" placeholder="嘉木/盆景/文玩" />
+                <button type="submit"></button>
+              </form>
+            </div>
+          </div>
+
+          <!-- 导航分类 -->
+          <div class="nav-content">关于嘉木</div>
+          <div class="nav-content">节气故事</div>
+          <div class="nav-content">支付方式</div>
+          <div class="nav-content">商品分类</div>
+          <div class="nav-content">商城首页</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 宣传图 -->
+    <div class="index-img">
+      <img src="img/index.jpg" alt="" style="width: 100%" />
+    </div>
+
+    <!-- 商品展示 -->
+    <div class="show-box">
+      <font size="7" face="楷体_GB2312">美<font color="red">之</font>器物</font
+      ><br />
+      <font size="5">Chinese Tea</font>
+        <div style="margin-top:20px ;"></div>
+      <div id="tabs">
+        <div class="tab active" data-tab="cha-dao">茶道</div>
+        <div class="tab" data-tab="hua-dao">花道</div>
+        <div class="tab" data-tab="xiang-dao">香道</div>
+        <div class="tab" data-tab="bai-cha">白茶</div>
+      </div>
+
+      <div id="contents">
+        <div class="content active" id="cha-dao"></div>
+        <div class="content" id="hua-dao"></div>
+        <div class="content" id="xiang-dao"></div>
+        <div class="content" id="bai-cha"></div>
+      </div>
+    </div>
+  </body>
+</html>

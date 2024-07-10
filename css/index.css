@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    height: 40px;
+    width: 100%;
+    background: #f6f6f6;
+}
+.blank-box-top{
+    height: 10px;
+}
+.header-top-box {
+    height: 40px;
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 14px;
+    
+}
+.right-box {
+    display: inline-block;
+    float: right;
+    position: relative;
+    margin-right: 10px;
+}
+
+.nav{
+    height: 200px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.logo{
+    height: 190px;
+    width: 100px;
+    margin-top: 10px;
+    float: left;
+}
+.nav-right{
+    height: 200px;
+    width: 1100px;
+    float: right;
+}
+.blank-nav{
+    height: 150px;
+    width: 1100px;
+    float: right;  
+}
+.nav-content-box{
+    height: 50px;
+    width: 1100px;
+}
+.nav-content{
+    height: 50px;
+    width: 130px;
+    display: inline;
+    float: right;
+}
+
+.search-box{
+    width: 350px;
+    height: 40px;
+    float: right;
+    margin-top: -10px;
+    display: inline;   
+}
+.index-img{
+    height: 600px;
+    width: 100%;
+}
+.show-box{
+    text-align: center;
+    
+}
+
+/* 商品展示 */
+
+
+.tab {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+    
+}
+
+.tab.active {
+    background-color: #ccc;
+    font-weight: bold;
+}
+
+.content {
+    display: none;
+}
+
+.content.active {
+    display: block;
+}
+
+.product {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    vertical-align: top;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
